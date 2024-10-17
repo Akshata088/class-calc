@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Inventory Management</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="templates/login.html" class="login-btn">Login</a></li>
+                <li><a href="templates/signup.html" class="signup-btn">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <section class="main" id="home">
+        <h1>Efficient Inventory Management for Your Business</h1>
+        <p>Manage your products, stock, and resources with ease!</p>
+        <a href="#products" class="cta-btn">Explore Products</a>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>We provide comprehensive inventory solutions for businesses of all sizes. Stay organized and track all your assets with our cutting-edge software.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <h2>Our Inventory consists of several brands</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADi9DeYi9E3blTB1dvLmxpPTsPLKaQorPWQ&s" alt="Product 1">
+                <h3>Weapons & Ammo</h3>
+                <p>To effectively manage weapons and ammunition, an inventory system should track key details. 
+                    For weapons, this includes unique identifiers, name, type, caliber, manufacturer, model, status, acquisition date, and location. 
+                    Ammunition details include caliber, type, quantity, manufacturer, acquisition date, expiration date, and location. 
+                    A crucial aspect is the association between weapons and compatible ammunition. 
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoSuOouMYK4eFYYH17QtGbh0OtFfdnWbDo3g&s" alt="Product 2">
+                <h3>Throwables</h3>
+                <p>To effectively manage throwable items, track their unique identifiers, names, types, quantities, manufacturers, acquisition dates, expiration dates, and storage locations. This information ensures proper accountability and security for your inventory of throwables.</p>
+            </div>
+            <div class="product-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGEaldW1LGY-OmunJnnvf7FMr5uoj4wggqBw&s" alt="Product 3">
+                <h3>Electronics</h3>
+                <p>To effectively manage military electronics, track their unique identifiers, names, types (e.g., communication devices, surveillance equipment, weapon systems), serial numbers, specifications (e.g., range, accuracy, power output), manufacturers, acquisition dates, maintenance schedules, and storage locations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Copyright © 2024 Info Insurgents</p>
+        <div class="social-icons">
+            <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <!-- Chatbot Section -->
+    <div id="chatbot">
+        <button id="chatbot-toggle">💬 Chat</button>
+        <div id="chatbot-content" style="display: none;">
+            <div id="chatbot-messages">
+                <p>Hi! How can we help you?</p>
+            </div>
+            <input type="text" id="chatbot-input" placeholder="Type a message...">
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
